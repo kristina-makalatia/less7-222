@@ -1,0 +1,128 @@
+/* header styles */
+.header-wraper {
+  display: flex;
+  justify-content: space-between;
+  /* position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%; */
+  background-color: lightseagreen;
+  padding: 15px;
+  z-index: 100;
+}
+.header-main-element {
+  /* height: 46px; */
+  position: sticky;
+  top: 0;
+  left: 0;
+  z-index: 100;
+}
+.nav-ul {
+  display: flex;
+  width: 300px;
+  justify-content: space-between;
+}
+
+/* h.w new */
+.block-new {
+  width: 386px;
+  position: relative;
+}
+.white-box {
+  background-color: #fff;
+  width: 341px;
+  height: 114px;
+  position: absolute;
+  left: 22px;
+  bottom: 22px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+}
+
+.image-main-width {
+  width: 100%;
+}
+.image-relative {
+    position: relative;
+}
+.text-block-on-image {
+  border: 1px solid #000;
+  width: 511px;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%,-50%);
+  text-align: center;
+}
+/* position examples */
+.wraper {
+  width: 400px;
+  height: 400px;
+  background-color: lightblue;
+  position: relative;
+}
+.child-wraper {
+  width: 150px;
+  height: 150px;
+  background-color: yellow;
+  position: absolute;
+  top: 50px;
+  left: 100px;
+  z-index: 2;
+}
+.child-wraper2 {
+  width: 150px;
+  height: 150px;
+  background-color: lightcoral;
+  position: absolute;
+  top: 100px;
+  left: 150px;
+  z-index: 3;
+}
+.hello {
+  position: absolute;
+  left: 0;
+  bottom: 0;
+}
+
+/* image example */
+.text-image {
+  position: absolute;
+  top: 150px;
+  right: 100px;
+  font-size: 35px;
+  color: red;
+}
+.image-wraper {
+  position: relative;
+  display: inline-block;
+}
+
+/* chat icon example */
+.chat-image {
+  height: 100px;
+}
+.chat-icon {
+  position: fixed;
+  right: 30px;
+  bottom: 30px;
+}
+
+/* h.w */
+.icon {
+  width: 36px;
+  height: 36px;
+  background-color: #f2f4f7;
+  border-radius: 100px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.icons-wraper {
+  display: flex;
+}
+.active {
+  margin: 0 16px;
+}
